@@ -1,13 +1,13 @@
-# 📰 小翠时政财经 · 财经简报 Skill
+# 📰 每日财经简报 Skill
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repositories-blue?logo=github)](https://github.com/yang0/xiaocui-finance-skill)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> 基于 YouTube 频道「小翠时政财经」的分析方法论蒸馏。输入市场数据，输出结构化财经简报。
+> 输入市场数据，输出结构化财经简报。宏观焦点 → 关键人物言论 → 重点公司深度 → 市场全景，每段标注 [事实] vs [判断] vs [翻译]。
 
 ## 特性
 
-- **结构化简报**：宏观焦点 → 关键人物言论 → 重点公司深度 → 市场全景
+- **结构化简报**：宏观焦点 → 市场解读 → 重点公司 → 全景
 - **标签系统**：`[事实]` vs `[判断]` vs `[翻译]` — 事实与观点严格区分
 - **推理链**：每个判断配推理过程（A→B→C），可复现
 - **比喻记忆点**：复杂概念用通俗比喻化解
@@ -35,21 +35,21 @@
 
 ## 方法论来源
 
-本 Skill 基于对小翠时政财经频道（YouTube: UCOhck8oLoIwSJzmwYMXsSnQ）4期节目的深度分析，提取其核心分析方法：
+本 Skill 基于对财经资讯节目的深度分析方法论蒸馏。核心分析技术：
 
 | 技术 | 说明 |
 |------|------|
 | **数据密度** | 每期30-60个事实数据，每个有来源 |
 | **个人判断** | 事实后立刻给解读，不装中立 |
-| **比喻记忆** | 每个核心论点配一个比喻（"考100分也没用"）|
+| **比喻记忆** | 每个核心论点配一个通俗比喻 |
 | **全局关联** | 单点事件→逻辑链条→判断结论 |
 
-蒸馏框架参考自 [nuwa-skill](https://github.com/alchaincyf/nuwa-skill)（女娲·Skill造人术）。
+蒸馏框架参考自 [nuwa-skill](https://github.com/alchaincyf/nuwa-skill)。
 
 ## 文件结构
 
 ```
-xiaocui-finance-skill/
+daily-finance-briefing/
 ├── SKILL.md           # 主Skill文件（核心方法论+模板）
 ├── README.md          # 本文件
 ├── LICENSE            # MIT协议

@@ -1,15 +1,13 @@
 ---
-name: xiaocui-finance-briefing
+name: daily-finance-briefing
 description: |
-  小翠时政财经风格 · 每日财经简报生成器。
-  输入市场数据，输出结构化分析简报，含宏观焦点→美联储解读→资本市场全景→重点公司深度→关键人物言论追踪。
+  每日财经简报生成器。输入市场数据，输出结构化分析简报，含宏观焦点→市场解读→资产全景→重点公司深度→关键人物言论追踪。
   核心方法论: 数据密度+个人判断+比喻记忆点+全局关联。输出格式严格分级: [事实] vs [判断] vs [翻译]。
+
 ---
 
-# 小翠时政财经 · 每日财经简报 Skill
+# 每日财经简报 Skill
 
-> 本 Skill 基于 YouTube 频道「小翠时政财经」的分析方法蒸馏而来。
-> 频道ID: UCOhck8oLoIwSJzmwYMXsSnQ
 > 版本: v3 | 方法论版本: 3 | 迭代次数: 3
 
 ---
@@ -361,5 +359,4 @@ description: |
 
 ---
 
-> 本 Skill 基于「小翠时政财经」(UCOhck8oLoIwSJzmwYMXsSnQ) 的方法论蒸馏。
-> 蒸馏框架参考自 [nuwa-skill](https://github.com/alchaincyf/nuwa-skill) (女娲 · Skill造人术)。
+> 蒸馏框架参考自 [nuwa-skill](https://github.com/alchaincyf/nuwa-skill)。
